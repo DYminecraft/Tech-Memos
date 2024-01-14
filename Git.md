@@ -72,3 +72,7 @@ rebase相较merge，把历史记录直线化。
 2. github flow
 	1. main
 	2. feature：开发完开启PR，Review完发布和合并
+
+## 关联远程仓库、本地仓库
+git remote add shortname url
+git push -u origin main:main 把当前仓库的main推到远程origin仓库的main
